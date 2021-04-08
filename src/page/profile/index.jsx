@@ -1,5 +1,9 @@
 import React from "react";
 import "./styles.css";
+import ellipse from '../../image/ellipse.svg';
+import user1 from '../../image/user1.svg';
+import museum1 from '../../image/museum1.svg';
+import email1 from '../../image/email1.svg';
 
 function Profile() {
   return (
@@ -11,18 +15,24 @@ function Profile() {
             <div className="profile-container">
               <div className="profile-nav-bar">
                 <div className="nor-color profile-nav-bar-item active">
-                  Account Profile
+                  <img src={user1} alt="user1" />
+                   Account Profile
                 </div>
-                <div className="nor-color profile-nav-bar-item">
+                <div className="nor-color profile-nav-bar-item"><img src={museum1} alt="museum1" />
                   Update Bank Detail
                 </div>
-                <div className="nor-color profile-nav-bar-item">Inbox</div>
+                <div className="nor-color profile-nav-bar-item"><img src={email1} alt="email1" />
+                  Inbox</div>
               </div>
               <div className="row profile-main-content">
                 <div className="col-12">
                   <div className="row">
                     <div className="col-12 col-sm-6 first-block">
-                      <div className="logo-block mt-4"></div>
+                      <div className="logo-block mt-4">
+                        <img src={ellipse} alt="ellipse" style={{ marginTop: "18px", marginLeft: "100px" }}></img>
+                        <div className="name">HowdyCandidate</div>
+                        <div className="name-thb">THB 565.000</div>
+                      </div>
                       <div className="detail-block communication-detail-block">
                         <div className="block-label mb-2 communication-detail-label">
                           Communication Details
@@ -34,7 +44,17 @@ function Profile() {
                             class="form-control"
                             id="phone"
                             aria-describedby="phone"
-                            placeholder="Enter phone number"
+                            placeholder="*********98765"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label className="mb-0">Language</label>
+                          <input
+                            type="phone"
+                            class="form-control"
+                            id="phone"
+                            aria-describedby="phone"
+                            placeholder="Singapore"
                           />
                         </div>
                       </div>
@@ -52,7 +72,7 @@ function Profile() {
                             className="form-control"
                             id="name"
                             aria-describedby="name"
-                            placeholder="Enter username"
+                            placeholder="HowdyCandidate"
                           />
                         </div>
                         <div class="form-group">
@@ -63,84 +83,84 @@ function Profile() {
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="HowdyCandidate"
                           />
                         </div>
                         <div class="form-group">
-                          <label>First name</label>
+                          <label>Date of Birth</label>
                           <span className="primary-color">:</span>
                           <input
                             type="text"
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="12/10/1999"
                           />
                         </div>
                         <div class="form-group">
-                          <label>First name</label>
+                          <label>Password</label>
                           <span className="primary-color">:</span>
                           <input
                             type="text"
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="Change Password"
                           />
                         </div>
                         <div class="form-group">
-                          <label>First name</label>
+                          <label>Country</label>
                           <span className="primary-color">:</span>
                           <input
                             type="text"
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="Chile"
                           />
                         </div>
                         <div class="form-group">
-                          <label>First name</label>
+                          <label>Currency</label>
                           <span className="primary-color">:</span>
                           <input
                             type="text"
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="THB"
                           />
                         </div>
                         <div class="form-group">
-                          <label>First name</label>
+                          <label>Last name</label>
                           <span className="primary-color">:</span>
                           <input
                             type="text"
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="Pew Pew"
                           />
                         </div>
                         <div class="form-group">
-                          <label>First name</label>
+                          <label>E-Mail</label>
                           <span className="primary-color">:</span>
                           <input
                             type="text"
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="email@example.com"
                           />
                         </div>
                         <div class="form-group">
-                          <label>First name</label>
+                          <label>Gender</label>
                           <span className="primary-color">:</span>
                           <input
                             type="text"
                             className="form-control"
                             id="firstname"
                             aria-describedby="firstname"
-                            placeholder="Enter first name"
+                            placeholder="Male"
                           />
                         </div>
                       </div>
@@ -171,7 +191,7 @@ function Profile() {
                           class="form-control"
                           id="phone"
                           aria-describedby="phone"
-                          placeholder="Enter phone number"
+                          placeholder="Town/City"
                         />
                       </div>
                       <div class="form-group">
@@ -181,7 +201,7 @@ function Profile() {
                           class="form-control"
                           id="phone"
                           aria-describedby="phone"
-                          placeholder="Postal Code"
+                          placeholder="00000"
                         />
                       </div>
                     </div>
