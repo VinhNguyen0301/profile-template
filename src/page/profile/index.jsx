@@ -16,13 +16,14 @@ function Profile() {
               <div className="profile-nav-bar">
                 <div className="nor-color profile-nav-bar-item active">
                   <img src={user1} alt="user1" />
-                   Account Profile
+                  <span style={{ marginLeft: "10px" }}>Account Profile </span>
                 </div>
                 <div className="nor-color profile-nav-bar-item"><img src={museum1} alt="museum1" />
-                  Update Bank Detail
+                  <span style={{ marginLeft: "6px" }}> Update Bank Detail</span>
                 </div>
                 <div className="nor-color profile-nav-bar-item"><img src={email1} alt="email1" />
-                  Inbox</div>
+                  <span style={{ marginLeft: "10px" }}>Inbox</span>
+                </div>
               </div>
               <div className="row profile-main-content">
                 <div className="col-12">
