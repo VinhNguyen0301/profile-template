@@ -1,0 +1,177 @@
+.form-control:focus {
+  background-color: unset;
+  border-color: none;
+  box-shadow: none;
+}
+
+textarea {
+  border: none;
+}
+
+.form-control:valid {
+  background-color: unset;
+  color: #a1d6fa;
+}
+
+.profile-page.container {
+  background: #172038;
+  padding: 0;
+}
+
+.profile-content.row {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-header {
+  border-bottom: 1px solid #6389af;
+  height: 60px;
+}
+
+.profile-body {
+  margin: 20px 0;
+  padding: 0 10%;
+}
+
+.profile-container {
+  background: #1f2744;
+  border-radius: 10px;
+}
+
+.profile-nav-bar {
+  display: flex;
+  border-bottom: 1px solid #6389af;
+}
+@media screen and (max-width: 600px) {
+  .profile-nav-bar {
+    flex-direction: column;
+  }
+}
+
+.profile-nav-bar-item {
+  float: left;
+  line-height: 25px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.profile-nav-bar-item.active {
+  border-bottom: 1px solid #9fd8ff;
+}
+
+.nor-color {
+  color: #6389af;
+}
+
+.profile-main-content {
+  padding: 15px 30px;
+  margin: 0;
+}
+
+.detail-block {
+  background: #172038;
+  box-shadow: 0px 4px 34px rgb(0 0 0 / 13%);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.logo-block {
+  width: 100%;
+  height: 300px;
+  background: gray;
+}
+
+.communication-detail-label {
+  color: #a1d6fa;
+}
+
+.account-detail-label {
+  color: #6389af;
+}
+
+.communication-detail-block label {
+  color: rgba(159, 216, 255, 0.36);
+}
+
+.communication-detail-block input {
+  background: rgba(159, 216, 255, 0.24);
+  border: none;
+  background-color: rgba(159, 216, 255, 0.24);
+}
+
+.communication-detail-block .form-control:valid {
+  background-color: rgba(159, 216, 255, 0.24);
+}
+
+.account-detail-block .form-group {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border-radius: 3px;
+  padding: 7px 10px;
+}
+
+.account-detail-block .form-group:nth-child(2n) {
+  background: rgba(159, 216, 255, 0.24);
+}
+
+.account-detail-block label {
+  color: #9fd8ff;
+  margin: 0;
+  width: 40%;
+}
+
+.first-block {
+  padding-left: 0;
+}
+
+.account-detail-block input {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+}
+
+.primary-color {
+  color: #a1d6fa;
+  font-size: 16px;
+}
+
+.form-group ::placeholder {
+  color: #a1d6fa;
+  opacity: 1;
+}
+
+.confirm-block {
+  text-align: center;
+}
+
+.confirm-text {
+  color: #a1d6fa;
+}
+
+.confirm-checkbox label {
+  font-size: 14px;
+  color: #9fd8ff;
+}
+
+.button-block {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  margin: 0 10px;
+}
+
+.btn.btn-save {
+    background: #42aff9;
+}
+
+.btn.btn-cancel {
+    background: #F94263;
+}
