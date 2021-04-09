@@ -30,7 +30,7 @@ function Profile() {
                   <div className="row">
                     <div className="col-12 col-sm-6 first-block">
                       <div className="logo-block mt-4">
-                        <img src={ellipse} alt="ellipse" style={{ marginTop: "18px", marginLeft: "100px" }}></img>
+                        <img src={ellipse} alt="ellipse" className="image-responsive"></img>
                         <div className="name">HowdyCandidate</div>
                         <div className="name-thb">THB 565.000</div>
                       </div>
