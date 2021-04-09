@@ -1,16 +1,30 @@
 import React from "react";
 import "./styles.css";
 import ellipse from '../../image/ellipse.svg';
+import ellipse2 from '../../image/ellipse2.svg';
 import user1 from '../../image/user1.svg';
 import museum1 from '../../image/museum1.svg';
 import email1 from '../../image/email1.svg';
+import group149 from '../../image/group149.svg';
+import vector from '../../image/vector.svg';
+import vector2 from '../../image/vector2.svg';
+import lock from '../../image/lock.svg';
 
 function Profile() {
   return (
     <>
       <div className="container profile-page">
         <div className="row profile-content">
-          <div className="col-12 profile-header">Header</div>
+          <div className="col-12 profile-header">
+            <div className="nor-color profile-nav-bar-item ">
+              <img src={group149} alt="group149" />
+              <span style={{ marginLeft: "10px" }}>All Services </span>
+            </div>
+            <div className="nor-color profile-nav-bar-item " style={{ float: "right" }}>
+              <img src={ellipse2} alt="ellipse2" />
+              <span style={{ marginLeft: "10px" }}>Howdy... <img src={vector} alt="vector" /></span>
+            </div>
+          </div>
           <div className="col-12 profile-body">
             <div className="profile-container">
               <div className="profile-nav-bar">
@@ -57,6 +71,7 @@ function Profile() {
                             aria-describedby="phone"
                             placeholder="Singapore"
                           />
+                          <img src={vector2} alt="vector2" />
                         </div>
                       </div>
                     </div>
@@ -75,6 +90,7 @@ function Profile() {
                             aria-describedby="name"
                             placeholder="HowdyCandidate"
                           />
+                          <img src={lock} alt="lock" />
                         </div>
                         <div class="form-group">
                           <label>First name</label>
@@ -86,6 +102,7 @@ function Profile() {
                             aria-describedby="firstname"
                             placeholder="HowdyCandidate"
                           />
+                          <img src={lock} alt="lock" />
                         </div>
                         <div class="form-group">
                           <label>Date of Birth</label>
@@ -97,6 +114,7 @@ function Profile() {
                             aria-describedby="firstname"
                             placeholder="12/10/1999"
                           />
+                          <img src={lock} alt="lock" />
                         </div>
                         <div class="form-group">
                           <label>Password</label>
@@ -119,6 +137,7 @@ function Profile() {
                             aria-describedby="firstname"
                             placeholder="Chile"
                           />
+                          <img src={lock} alt="lock" />
                         </div>
                         <div class="form-group">
                           <label>Currency</label>
@@ -130,6 +149,7 @@ function Profile() {
                             aria-describedby="firstname"
                             placeholder="THB"
                           />
+                          <img src={lock} alt="lock" />
                         </div>
                         <div class="form-group">
                           <label>Last name</label>
@@ -141,6 +161,7 @@ function Profile() {
                             aria-describedby="firstname"
                             placeholder="Pew Pew"
                           />
+                          <img src={lock} alt="lock" />
                         </div>
                         <div class="form-group">
                           <label>E-Mail</label>
@@ -152,6 +173,7 @@ function Profile() {
                             aria-describedby="firstname"
                             placeholder="email@example.com"
                           />
+                          <img src={lock} alt="lock" />
                         </div>
                         <div class="form-group">
                           <label>Gender</label>
@@ -163,6 +185,7 @@ function Profile() {
                             aria-describedby="firstname"
                             placeholder="Male"
                           />
+                          <img src={vector2} alt="vector2" />
                         </div>
                       </div>
                     </div>
