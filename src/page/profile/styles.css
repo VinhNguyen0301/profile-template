@@ -61,6 +61,12 @@ textarea {
     margin-left: 45px !important;
     margin-top: 18px;
   }
+  .margin-left-vector {
+    margin-left: 95px !important;
+}
+  .margin-item-login {
+    visibility: hidden;
+  }
 }
 
 
@@ -222,4 +228,13 @@ margin-top: 9px;
 .image-responsive {
   margin-top: 18px;
   margin-left: 130px;
+}
+.margin-left-vector {
+  margin-left: 200px;
+}
+.margin-item-dashboard {
+  margin-left: 70px;
+}
+.margin-item-login {
+  margin-right: 70px;
 }

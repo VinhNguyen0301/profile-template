@@ -16,11 +16,11 @@ function Profile() {
       <div className="container profile-page">
         <div className="row profile-content">
           <div className="col-12 profile-header">
-            <div className="nor-color profile-nav-bar-item ">
+            <div className="nor-color profile-nav-bar-item margin-item-dashboard">
               <img src={group149} alt="group149" />
               <span style={{ marginLeft: "10px" }}>All Services </span>
             </div>
-            <div className="nor-color profile-nav-bar-item " style={{ float: "right" }}>
+            <div className="nor-color profile-nav-bar-item margin-item-login" style={{ float: "right" }}>
               <img src={ellipse2} alt="ellipse2" />
               <span style={{ marginLeft: "10px" }}>Howdy... <img src={vector} alt="vector" /></span>
             </div>
@@ -61,17 +61,18 @@ function Profile() {
                             aria-describedby="phone"
                             placeholder="*********98765"
                           />
+                          <div>Verify</div>
                         </div>
-                        <div class="form-group">
-                          <label className="mb-0">Language</label>
-                          <input
-                            type="phone"
-                            class="form-control"
-                            id="phone"
-                            aria-describedby="phone"
-                            placeholder="Singapore"
-                          />
-                          <img src={vector2} alt="vector2" />
+
+                        <div className="account-detail-block">
+                          <div className="block-label mt-2 mb-2 account-detail-label">
+                            Language
+                        </div>
+                          <div class="form-group">
+                            <label>Singapore</label>
+
+                            <img src={vector2} alt="vector2" className="margin-left-vector" />
+                          </div>
                         </div>
                       </div>
                     </div>
